@@ -10,18 +10,18 @@ stellar contract build
 
  stellar contract deploy --wasm target/wasm32-unknown-unknown/release/soroban_atomic_swap_contract.wasm --source alice --network testnet --alias atomic_swap   
 
-ℹ️  Simulating install transaction…
-ℹ️  Signing transaction: 743ee9016f6394dee503dbc9711c12fa1838e428c0ec58801f4225cd54100c8c7
-🌎 Submitting install transaction…
-ℹ️  Using wasm hash c6106ac12b08a606ca8243babb00436b57fce4f80896deb61eb5f9c9867298bc
-ℹ️  Simulating deploy transaction…
-ℹ️  Transaction hash is f85b938ced0c95bf609002d50848a79fe13f6dd85b0bbffb85038cf3481066973
-🔗 https://stellar.expert/explorer/testnet/tx/f85b938ced0c95bf609002d50848a79fe13f6dd85b0bbffb85038cf348106973
-ℹ️  Signing transaction: f85b938ced0c95bf609002d50848a79fe13f6dd85b0bbffb85038cf3481006973
-🌎 Submitting deploy transaction…
-🔗 https://stellar.expert/explorer/testnet/contract/CCR4OCVAKSYG3MUN5CMEWVTQTGUE54SXHNO5NK6UUMGAY4LJLEMQ7FQV
-✅ Deployed!
-CCR4OCVAKSYG3MUN5CMEWVTQTGUE54SXHNO5NK6UUMGAY4LJLEMQ7FQV
+- ℹ️  Simulating install transaction…
+- ℹ️  Signing transaction: 743ee9016f6394dee503dbc9711c12fa1838e428c0ec58801f4225cd54100c8c7
+- 🌎 Submitting install transaction…
+- ℹ️  Using wasm hash c6106ac12b08a606ca8243babb00436b57fce4f80896deb61eb5f9c9867298bc
+- ℹ️  Simulating deploy transaction…
+- ℹ️  Transaction hash is f85b938ced0c95bf609002d50848a79fe13f6dd85b0bbffb85038cf3481066973
+- 🔗 https://stellar.expert/explorer/testnet/tx/f85b938ced0c95bf609002d50848a79fe13f6dd85b0bbffb85038cf348106973
+- ℹ️  Signing transaction: f85b938ced0c95bf609002d50848a79fe13f6dd85b0bbffb85038cf3481006973
+- 🌎 Submitting deploy transaction…
+- 🔗 https://stellar.expert/explorer/testnet/contract/CCR4OCVAKSYG3MUN5CMEWVTQTGUE54SXHNO5NK6UUMGAY4LJLEMQ7FQV
+- ✅ Deployed!
+- CCR4OCVAKSYG3MUN5CMEWVTQTGUE54SXHNO5NK6UUMGAY4LJLEMQ7FQV
 
 
 # Call Method
