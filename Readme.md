@@ -1,12 +1,12 @@
-#Atomic-Swap
+# Atomic-Swap
 
 Swap two tokens between to address
 
-#Build
+# Build
 
 stellar contract build 
 
-#Deploy
+# Deploy
 
  stellar contract deploy --wasm target/wasm32-unknown-unknown/release/soroban_atomic_swap_contract.wasm --source alice --network testnet --alias atomic_swap   
 
@@ -24,7 +24,7 @@ stellar contract build
 CCR4OCVAKSYG3MUN5CMEWVTQTGUE54SXHNO5NK6UUMGAY4LJLEMQ7FQV
 
 
-#Call Method
+# Call Method
 
 stellar contract invoke \
   --id atomic_swap \
